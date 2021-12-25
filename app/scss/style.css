@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Inter';
+  background: #090b1a;
 }
 
 .wrapper {
@@ -30,22 +31,100 @@ body {
           flex-direction: column;
   width: 325px;
   margin: auto;
+  background: #1b1938;
+  color: white;
+}
+
+.card__header-container {
+  position: relative;
+  width: 100%;
 }
 
 .card__header-image {
   width: 100%;
+  display: block;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card__header--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #aa5cdb;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card__body {
+  padding: 1rem;
 }
 
 .card__title {
   text-align: center;
+  padding: .5rem .5rem;
+}
+
+.text__color--purple {
+  color: #aa5cdb;
+}
+
+.card__description {
+  text-align: center;
   padding: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.card__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card_detail--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  font-family: 'Lexend Deca';
+  text-transform: uppercase;
+}
+
+.data-value {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Inter';
+  text-transform: lowercase;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin: 1rem 0;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .attribution a {
