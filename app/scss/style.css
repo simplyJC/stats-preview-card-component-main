@@ -38,6 +38,8 @@ body {
   max-width: 500px;
   -ms-flex-line-pack: center;
       align-content: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .card__header-container {
@@ -108,7 +110,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: bold;
 }
 
 .card_detail--center {
@@ -125,7 +126,7 @@ body {
   padding: .7rem;
   font-family: 'Lexend Deca';
   text-transform: uppercase;
-  font-weight: 400;
+  font-size: 15px;
 }
 
 .data-value {
@@ -134,6 +135,7 @@ body {
   font-family: 'Inter';
   text-transform: lowercase;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .attribution {
@@ -154,16 +156,18 @@ body {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
     min-width: 1000px;
-    border-radius: 1rem;
+    border-radius: .3rem;
   }
   .card__header-image {
     border-top-left-radius: 0;
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: .3rem;
+    border-top-right-radius: .3rem;
     background: white;
   }
   .card__header--overlay {
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: .3rem;
     border-top-left-radius: 0;
+    border-top-right-radius: .3rem;
   }
   .card__header-container {
     -webkit-box-flex: 100%;
@@ -171,7 +175,7 @@ body {
             flex: 100%;
   }
   .card__body {
-    padding: 2rem;
+    padding: 3rem;
   }
   .card_header-image--mobile {
     display: none;
