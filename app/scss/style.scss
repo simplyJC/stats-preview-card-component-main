@@ -18,6 +18,8 @@ $font-regular: 15px;
 body{
     font-family: 'Inter';
     background: $primary;
+    // width: 100%;
+
     
 
 }
@@ -27,31 +29,39 @@ body{
     height: 100vh;
     display: grid;
     align-content: center;
-   padding: 1rem;
-   //margin: 1rem;
+    justify-content: center;
+    padding: 2rem;
+
 
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    //@extend: 325px;
-    margin: auto;
+    //width: 325px;
+    //margin: auto;
     background: $secondary;
     color: $main-white;
     max-width: 500px;
+   align-content: center;
+  // justify-content: center;
+
+
     
 
 }
 
 // Card Header Image
 .card__header-container{
+   
+
     position: relative;
-    width: 100%;  
+    width: 100%; 
 }
 
 .card__header-image{
     width: 100%;
+    height: 100%;
     display: block;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -104,23 +114,28 @@ body{
     margin: auto;
     padding: 1rem;
     align-items: center;
+    justify-content: center;
     color: $stats-headings-white;
+    font-weight: bold;
 }
 
 .card_detail--center{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: .7rem;
     font-family: 'Lexend Deca';
     text-transform: uppercase;
+    font-weight: 400;
+
 }
  
 .data-value{
-    font-size: 2rem; 
+    font-size: 1rem; 
     color: $main-white;
     font-family: 'Inter';
     text-transform: lowercase;
+    font-weight: bold;
 
 }
 // Footer
@@ -141,8 +156,6 @@ body{
         flex-direction: row-reverse;
         min-width: 1000px;
        border-radius: 1rem;
-       
-
 
     }
  
