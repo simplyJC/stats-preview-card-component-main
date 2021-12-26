@@ -14,7 +14,7 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
@@ -110,6 +110,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style-type: none;
 }
 
 .card_detail--center {

@@ -46,5 +46,13 @@ Users should be able to:
 - Frontend Mentor - [@simplyJC](https://www.frontendmentor.io/profile/simplyJC)
 - Twitter - [@jcaltamia](https://twitter.com/jcaltamia)
 
+## Acknowledgments
+- Special Thanks to:
+- [RJ ](https://www.facebook.com/rsuyom) - who always ready to take challenges.
+- [@pikapikamart](https://www.frontendmentor.io/profile/pikapikamart) - for the feedback in [Frontendmentor](https://www.frontendmentor.io/). I highly appreciate it.
+
+ 
+
+
 
 
